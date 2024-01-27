@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/styles.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1706303238667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706326729223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n /* You can add global styles to this file, and also import other style files */\n :root {\n-  --green: #69f0ae;\n+  --green: #ff9913;\n   --green-light: #b9f6ca;\n   --gray-light: #bdbdbd;\n   --dark-gray: #263238;\n   --black: #212121;\n"
+                },
+                {
+                    "date": 1706326761719,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,8 @@\n /* You can add global styles to this file, and also import other style files */\n :root {\n   --green: #ff9913;\n-  --green-light: #b9f6ca;\n-  --gray-light: #bdbdbd;\n-  --dark-gray: #263238;\n+\n   --black: #212121;\n }\n \n * {\n"
+                }
+            ],
+            "date": 1706303238667,
+            "name": "Commit-0",
+            "content": "/* You can add global styles to this file, and also import other style files */\n:root {\n  --green: #69F0AE;\n  --green-light: #B9F6CA;\n  --gray-light: #BDBDBD;\n  --dark-gray: #263238;\n  --black: #212121;\n}\n\n* {\n  margin: 0%;\n  box-sizing: border-box;\n}\n\nbody {\n  font-family: 'Roboto Condensed', sans-serif;\n  font-family: 'Poppins', sans-serif;\n}\n\n.container {\n  margin: 0 auto;\n  max-width: 1500px;\n  outline: 0px solid white;\n}\n\nh1 {\n  padding: 1rem 0;\n  text-align: center;\n  letter-spacing: 1px;\n  color: var(--green);\n  outline: 1px solid white;\n  font-family: 'Roboto Condensed', sans-serif;\n}\n"
+        }
+    ]
+}

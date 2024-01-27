@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/app/app.component.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1706307004034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1706307004034,
+            "name": "Commit-0",
+            "content": ":host {\r\n  display: block;\r\n  background-color: var(--black);\r\n}\r\n\r\n:host.pc .container {\r\n  display: grid;\r\n  grid-template-columns: 1fr 1fr;\r\n}\r\n"
+        }
+    ]
+}

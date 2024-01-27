@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/app/models/models.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1706306096496,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1706306096496,
+            "name": "Commit-0",
+            "content": "export interface Education {\r\n  institute: string;\r\n  course: string;\r\n  duration: string;\r\n  score: string;\r\n}\r\n\r\nexport interface WorkExperience {\r\n  role: string;\r\n  company: string;\r\n  duration: string;\r\n  description: string[];\r\n}\r\n\r\nexport interface Skill {\r\n  name: string;\r\n  level: string;\r\n  rating: number;\r\n}\r\n\r\nexport interface Project {\r\n  title: string;\r\n  technologies: string;\r\n  description: string[];\r\n}\r\n"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/app/projects/projects.component.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1706304975616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1706304975616,
+            "name": "Commit-0",
+            "content": "<div class=\"container\">\n  <h1>Projects</h1>\n\n  <section *ngFor=\"let project of projects\">\n      <h2>{{project.title}}</h2>\n\n      <h3>\n          <span>Technologies: </span>\n          <span>{{project.technologies}}</span>\n      </h3>\n\n      <ul *ngFor=\"let desc of project.description\">\n          <li>{{desc}}</li>\n      </ul>\n  </section>\n</div>\n"
+        }
+    ]
+}

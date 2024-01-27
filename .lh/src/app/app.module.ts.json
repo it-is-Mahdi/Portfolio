@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/app/app.module.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1706302820813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706306325199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,17 +1,19 @@\n import { NgModule } from '@angular/core';\n import { BrowserModule } from '@angular/platform-browser';\n \n import { AppComponent } from './app.component';\n+import { BanerComponent } from './baner/baner.component';\n+import { ContactComponent } from './contact/contact.component';\n+import { SkillsComponent } from './skills/skills.component';\n+import { WorkExperienceComponent } from './work-experience/work-experience.component';\n+import { EducationComponent } from './education/education.component';\n+import { PersonalInformationComponent } from './personal-information/personal-information.component';\n+import { ProjectsComponent } from './projects/projects.component';\n \n @NgModule({\n-  declarations: [\n-    AppComponent\n-\n-  ],\n-  imports: [\n-    BrowserModule\n-  ],\n+  declarations: [AppComponent, BanerComponent, ContactComponent, SkillsComponent, WorkExperienceComponent, EducationComponent, PersonalInformationComponent, ProjectsComponent],\n+  imports: [BrowserModule],\n   providers: [],\n-  bootstrap: [AppComponent]\n+  bootstrap: [AppComponent],\n })\n-export class AppModule { }\n+export class AppModule {}\n"
+                }
+            ],
+            "date": 1706302820813,
+            "name": "Commit-0",
+            "content": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppComponent } from './app.component';\n\n@NgModule({\n  declarations: [\n    AppComponent\n\n  ],\n  imports: [\n    BrowserModule\n  ],\n  providers: [],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n"
+        }
+    ]
+}

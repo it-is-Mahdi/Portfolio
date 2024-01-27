@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/app/personal-information/personal-information.component.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1706305232786,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706325115826,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,12 +6,12 @@\n   styleUrls: ['./personal-information.component.css'],\n })\n export class PersonalInformationComponent implements OnInit {\n   myData: string[][] = [\n-    ['Name', 'Sundar Pichai'],\n-    ['DOB', '10/06/1972'],\n-    ['Work Exp', '25 Years'],\n-    ['Education', 'M.S (1995)'],\n+    ['Name', 'Mahdi Alizada'],\n+    ['DOB', 'Sep 01, 2000'],\n+    ['Work Exp', '2 Years'],\n+    ['Education', \"Bachelor's degree\"],\n     ['Interests', 'Cricket'],\n   ];\n \n   aboutMe: string[] = [\n"
+                },
+                {
+                    "date": 1706325146832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     ['Name', 'Mahdi Alizada'],\n     ['DOB', 'Sep 01, 2000'],\n     ['Work Exp', '2 Years'],\n     ['Education', \"Bachelor's degree\"],\n-    ['Interests', 'Cricket'],\n+    ['Interests', 'Coding, Soccer'],\n   ];\n \n   aboutMe: string[] = [\n     'Hi, I am a Software Engineer with 25 years of experience in software industry.',\n"
+                }
+            ],
+            "date": 1706305232786,
+            "name": "Commit-0",
+            "content": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-personal-information',\n  templateUrl: './personal-information.component.html',\n  styleUrls: ['./personal-information.component.css']\n})\nexport class PersonalInformationComponent implements OnInit {\n\n  myData: string[][] = [\n    ['Name', 'Sundar Pichai'],\n    ['DOB', '10/06/1972'],\n    ['Work Exp', '25 Years'],\n    ['Education', 'M.S (1995)'],\n    ['Interests', 'Cricket'],\n  ];\n\n  aboutMe: string[] = [\n    'Hi, I am a Software Engineer with 25 years of experience in software industry.',\n    'Worked as Head of Product Management in Google for various technologies (Google Search Engine, Google Drive, Chrome Browser).',\n    'Delivered all product withing deadlines. Always eager to learn new technologies.',\n    'Currently, working as CEO of Google Alphabet',\n  ];\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n"
+        }
+    ]
+}

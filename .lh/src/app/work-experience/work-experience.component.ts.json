@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/app/work-experience/work-experience.component.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1706305077007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706306371482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import { Component, OnInit } from '@angular/core';\n+import { WorkExperience } from '../models/models';\n \n @Component({\n   selector: 'app-work-experience',\n   templateUrl: './work-experience.component.html',\n"
+                },
+                {
+                    "date": 1706327289557,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,11 +8,11 @@\n })\n export class WorkExperienceComponent implements OnInit {\n   workExpList: WorkExperience[] = [\n     {\n-      role: 'Chief Executing Officer',\n-      company: 'Google (Aplhabet)',\n-      duration: 'Aug 2015 - Now',\n+      role: 'Software Developer in Test',\n+      company: 'Faraso Technology',\n+      duration: 'Dec 2019 - Apr 2021',\n       description: [\n         'Working to expand google in remote areas.',\n         'Working to develop new technologies to make life easier.',\n       ],\n"
+                },
+                {
+                    "date": 1706327318408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n       role: 'Software Developer in Test',\n       company: 'Faraso Technology',\n       duration: 'Dec 2019 - Apr 2021',\n       description: [\n-        'Working to expand google in remote areas.',\n+        'Successfully created and executed test cases and test plans based on project requirements and design specifications, ensuring comprehensive coverage of software functionality.',\n         'Working to develop new technologies to make life easier.',\n       ],\n     },\n     {\n"
+                }
+            ],
+            "date": 1706305077007,
+            "name": "Commit-0",
+            "content": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-work-experience',\n  templateUrl: './work-experience.component.html',\n  styleUrls: ['./work-experience.component.css']\n})\nexport class WorkExperienceComponent implements OnInit {\n\n  workExpList: WorkExperience[] = [\n    {\n      role: 'Chief Executing Officer',\n      company: 'Google (Aplhabet)',\n      duration: 'Aug 2015 - Now',\n      description: [\n        'Working to expand google in remote areas.',\n        'Working to develop new technologies to make life easier.',\n      ],\n    },\n    {\n      role: 'Senior Vice President',\n      company: 'Google',\n      duration: 'Apr 2012 - Aug 2015',\n      description: [\n        'Involved in various Public talks',\n        'Open Sourced Google VP8',\n      ],\n    },\n    {\n      role: 'Vice President',\n      company: 'Google',\n      duration: 'Jul 2008 - Mar 2012',\n      description: [\n        'Included Android in Google',\n        'Worked on Development of Google Maps',\n      ],\n    },\n    {\n      role: 'Product Manager',\n      company: 'Google',\n      duration: 'Apr 2004 - Jun 2008',\n      description: [\n        'Worked on Google Toolbar',\n        'Involved in team to develop Google Chrome',\n      ],\n    },\n    {\n      role: 'Software Developer',\n      company: 'McKinsey & Co',\n      duration: 'Sep 2002 - Mar 2004',\n      description: [\n        'Worked with multiple teams to develop desktop and web applications',\n        'Worked on different technologies such as (Dotnet, C++, Java)',\n      ],\n    },\n  ];\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n"
+        }
+    ]
+}

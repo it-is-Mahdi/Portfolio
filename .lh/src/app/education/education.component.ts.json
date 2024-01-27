@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/app/education/education.component.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1706304904290,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706306361718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import { Component, OnInit } from '@angular/core';\n+import { Education } from '../models/models';\n \n @Component({\n   selector: 'app-education',\n   templateUrl: './education.component.html',\n"
+                },
+                {
+                    "date": 1706327072703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,22 +8,22 @@\n })\n export class EducationComponent implements OnInit {\n   educationList: Education[] = [\n     {\n-      institute: \"University of Pennsylvania's\",\n-      course: 'MBA',\n-      duration: '2000-2002',\n-      score: '80%',\n+      institute: \"American University of Afghanistan\",\n+      course: 'Bachelors',\n+      duration: '2018-2022',\n+      score: '85%',\n     },\n     {\n-      institute: 'Stanford University',\n-      course: 'M.S in Material Science',\n-      duration: '1993-1995',\n-      score: '75%',\n+      institute: 'Full Stack .NET Cloud Developer',\n+      course: 'Certification',\n+      duration: '2022-2023',\n+      score: '90%',\n     },\n     {\n-      institute: 'IIT (Madras)',\n-      course: 'BTech in Metallurgical Engineering',\n+      institute: 'Udemy',\n+      course: '',\n       duration: '1989-1993',\n       score: '85%',\n     },\n     {\n"
+                },
+                {
+                    "date": 1706327113988,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,11 +21,11 @@\n       score: '90%',\n     },\n     {\n       institute: 'Udemy',\n-      course: '',\n-      duration: '1989-1993',\n-      score: '85%',\n+      course: 'Learn Firebase Core with React',\n+      duration: '2022',\n+      score: '100%',\n     },\n     {\n       institute: 'Vana Vani School',\n       course: 'HSC',\n"
+                }
+            ],
+            "date": 1706304904290,
+            "name": "Commit-0",
+            "content": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-education',\n  templateUrl: './education.component.html',\n  styleUrls: ['./education.component.css']\n})\nexport class EducationComponent implements OnInit {\n\n\n  educationList: Education[] = [\n    {\n      institute: \"University of Pennsylvania's\",\n      course: 'MBA',\n      duration: '2000-2002',\n      score: '80%',\n    },\n    {\n      institute: 'Stanford University',\n      course: 'M.S in Material Science',\n      duration: '1993-1995',\n      score: '75%',\n    },\n    {\n      institute: 'IIT (Madras)',\n      course: 'BTech in Metallurgical Engineering',\n      duration: '1989-1993',\n      score: '85%',\n    },\n    {\n      institute: 'Vana Vani School',\n      course: 'HSC',\n      duration: '1988-1989',\n      score: '80%',\n    },\n    {\n      institute: 'Vana Vani School',\n      course: 'SSC',\n      duration: '1986-1988',\n      score: '90%',\n    },\n  ];\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n"
+        }
+    ]
+}

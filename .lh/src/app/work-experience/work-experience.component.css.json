@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/app/work-experience/work-experience.component.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1706305125130,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706326629089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n   left: -60px;\r\n   top: 5px;\r\n   border-radius: 50%;\r\n   z-index: 2;\r\n-  background-color: var(--green);\r\n+  background-color: #ff9913;\r\n }\r\n \r\n :host.pc ul li:has(ul)::after {\r\n   content: \"\";\r\n"
+                },
+                {
+                    "date": 1706326639975,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   margin-top: 2rem;\r\n }\r\n \r\n ul li h2 {\r\n-  color: var(--green);\r\n+  color: #ff9913;\r\n }\r\n \r\n ul li h4 {\r\n   color: var(--gray-light);\r\n"
+                }
+            ],
+            "date": 1706305125130,
+            "name": "Commit-0",
+            "content": ":host {\r\n  display: block;\r\n  color: white;\r\n  padding: 3rem 2rem;\r\n}\r\n\r\nul:has(ul) {\r\n  padding: 0%;\r\n  list-style: none;\r\n}\r\n\r\nul li:has(ul) {\r\n  margin-top: 2rem;\r\n}\r\n\r\nul li h2 {\r\n  color: var(--green);\r\n}\r\n\r\nul li h4 {\r\n  color: var(--gray-light);\r\n}\r\n\r\n/* PC */\r\n:host.pc ul li:has(ul) {\r\n  width: max-content;\r\n  position: relative;\r\n  margin-left: 5rem;\r\n}\r\n\r\n:host.pc ul li:has(ul)::before {\r\n  content: '';\r\n  position: absolute;\r\n  width: 20px;\r\n  height: 20px;\r\n  left: -60px;\r\n  top: 5px;\r\n  border-radius: 50%;\r\n  z-index: 2;\r\n  background-color: var(--green);\r\n}\r\n\r\n:host.pc ul li:has(ul)::after {\r\n  content: '';\r\n  position: absolute;\r\n  width: 1px;\r\n  height: 130%;\r\n  left: -50px;\r\n  top: 5%;\r\n  z-index: 1;\r\n  background-color: var(--gray-light);\r\n}\r\n\r\n:host.pc ul li:has(ul):last-child::after {\r\n  height: 100%;\r\n}\r\n"
+        }
+    ]
+}

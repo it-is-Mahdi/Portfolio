@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/app/projects/projects.component.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1706304990245,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706326527602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   margin-top: 2rem;\r\n }\r\n \r\n section h2 {\r\n-  color: var(--green);\r\n+  color: #ff9913;\r\n }\r\n \r\n section h3 {\r\n   margin-top: 0.5rem;\r\n"
+                }
+            ],
+            "date": 1706304990245,
+            "name": "Commit-0",
+            "content": ":host {\r\n  display: block;\r\n  color: white;\r\n  padding: 2rem 3rem;\r\n}\r\n\r\nsection {\r\n  margin-top: 2rem;\r\n}\r\n\r\nsection h2 {\r\n  color: var(--green);\r\n}\r\n\r\nsection h3 {\r\n  margin-top: 0.5rem;\r\n  color: var(--gray-light);\r\n}\r\n\r\nsection ul {\r\n  margin-top: 0.5rem;\r\n  list-style: circle;\r\n}\r\n\r\n/* PC */\r\n\r\n:host.pc section {\r\n  margin-left: 5rem;\r\n  position: relative;\r\n}\r\n\r\n:host.pc section h3 span:nth-child(2) {\r\n  color: white;\r\n}\r\n\r\n:host.pc section::before {\r\n  content: '';\r\n  position: absolute;\r\n  width: 20px;\r\n  height: 20px;\r\n  left: -60px;\r\n  top: 5px;\r\n  border-radius: 50%;\r\n  z-index: 2;\r\n  background-color: var(--green);\r\n}\r\n\r\n:host.pc section::after {\r\n  content: '';\r\n  position: absolute;\r\n  width: 1px;\r\n  height: 130%;\r\n  left: -50px;\r\n  top: 5%;\r\n  z-index: 1;\r\n  background-color: var(--gray-light);\r\n}\r\n\r\n:host.pc section:last-child:after {\r\n  height: 100%;\r\n}\r\n"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/app/personal-information/personal-information.component.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1706305314595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706325539225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n   padding-left: 0.5rem;\r\n }\r\n \r\n table tr td:nth-child(even) {\r\n-  color: var(--green);\r\n+  color: #ff9913;\r\n }\r\n \r\n section p {\r\n   font-size: 1.2rem;\r\n"
+                },
+                {
+                    "date": 1706330037626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n }\r\n \r\n section p {\r\n   font-size: 1.2rem;\r\n-  text-align: justify;\r\n+  text-align: center;\r\n }\r\n \r\n section p:not(:first-child) {\r\n   margin-top: 1rem;\r\n"
+                },
+                {
+                    "date": 1706330066940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n }\r\n \r\n section p {\r\n   font-size: 1.2rem;\r\n-  text-align: center;\r\n+  text-align: justify;\r\n }\r\n \r\n section p:not(:first-child) {\r\n   margin-top: 1rem;\r\n"
+                }
+            ],
+            "date": 1706305314595,
+            "name": "Commit-0",
+            "content": ":host {\r\n  display: block;\r\n  color: white;\r\n  padding: 3rem 2rem;\r\n}\r\n\r\n.container {\r\n  gap: 2rem;\r\n  display: grid;\r\n}\r\n\r\ntable {\r\n  font-size: 1.3rem;\r\n  outline: 1px solid white;\r\n}\r\n\r\ntable tr {\r\n  height: 40px;\r\n}\r\n\r\ntable tr td {\r\n  padding-left: 0.5rem;\r\n}\r\n\r\ntable tr td:nth-child(even) {\r\n  color: var(--green);\r\n}\r\n\r\nsection p {\r\n  font-size: 1.2rem;\r\n  text-align: justify;\r\n}\r\n\r\nsection p:not(:first-child) {\r\n  margin-top: 1rem;\r\n}\r\n\r\n/* PC */\r\n\r\n:host.pc {\r\n  margin-top: 3rem;\r\n}\r\n\r\n:host.pc .container {\r\n  grid-template-columns: 1fr 1fr;\r\n}\r\n\r\n:host.pc h1 {\r\n  grid-column: 1/3;\r\n}\r\n\r\n:host.pc section,\r\n:host.pc table {\r\n  width: 80%;\r\n  margin: auto;\r\n}\r\n"
+        }
+    ]
+}

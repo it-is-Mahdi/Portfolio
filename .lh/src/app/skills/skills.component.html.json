@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/app/skills/skills.component.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1706305417671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1706305417671,
+            "name": "Commit-0",
+            "content": "<div class=\"container\">\n  <h1>Skills</h1>\n\n  <section *ngFor=\"let skill of skills\">\n      <h2>{{skill.name}}</h2>\n      <h4>{{skill.level}}</h4>\n\n      <div class=\"rating\">\n          <div class=\"bar\">\n              <div [ngStyle]=\"{'width': skill.rating+'%'}\"></div>\n          </div>\n          <div>{{skill.rating}}%</div>\n      </div>\n  </section>\n</div>\n"
+        }
+    ]
+}

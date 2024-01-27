@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/app/contact/contact.component.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1706333984388,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706334903384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,10 @@\n   constructor() {}\n \n   ngOnInit(): void {}\n \n-  downloadingBtn = () => {\n-    alert('You clicked Download Resume');\n-  };\n+  downloadingBtn(): void {\n+    alert('It was clicked');\n+  }\n+\n+\n }\n"
+                },
+                {
+                    "date": 1706335035141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,7 @@\n \n   ngOnInit(): void {}\n \n   downloadingBtn(): void {\n-    alert('It was clicked');\n+    alert('Downloading button was clicked');\n   }\n }\n"
+                }
+            ],
+            "date": 1706333984388,
+            "name": "Commit-0",
+            "content": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-contact',\n  templateUrl: './contact.component.html',\n  styleUrls: ['./contact.component.css']\n})\nexport class ContactComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n  downloadingBtn = () => {\n    alert(\"You clicked Download Resume\");\n  }\n\n}\n"
+        }
+    ]
+}

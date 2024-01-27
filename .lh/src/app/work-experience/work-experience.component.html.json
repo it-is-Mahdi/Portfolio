@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/app/work-experience/work-experience.component.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1706305095648,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706305108554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,14 @@\n <div class=\"container\">\n   <h1>Work Experience</h1>\n \n   <ul>\n-      <li *ngFor=\"let workexp of workExpList\">\n-          <h2>{{workexp.role}}</h2>\n-          <h3>{{workexp.company}}</h3>\n-          <h4>{{workexp.duration}}</h4>\n-          <ul>\n-              <li *ngFor=\"let desc of workexp.description\">{{desc}}</li>\n-          </ul>\n-      </li>\n+    <li *ngFor=\"let workexp of workExpList\">\n+      <h2>{{ workexp.role }}</h2>\n+      <h3>{{ workexp.company }}</h3>\n+      <h4>{{ workexp.duration }}</h4>\n+      <ul>\n+        <li *ngFor=\"let desc of workexp.description\">{{ desc }}</li>\n+      </ul>\n+    </li>\n   </ul>\n </div>\n"
+                }
+            ],
+            "date": 1706305095648,
+            "name": "Commit-0",
+            "content": "<div class=\"container\">\n  <h1>Work Experience</h1>\n\n  <ul>\n      <li *ngFor=\"let workexp of workExpList\">\n          <h2>{{workexp.role}}</h2>\n          <h3>{{workexp.company}}</h3>\n          <h4>{{workexp.duration}}</h4>\n          <ul>\n              <li *ngFor=\"let desc of workexp.description\">{{desc}}</li>\n          </ul>\n      </li>\n  </ul>\n</div>\n"
+        }
+    ]
+}

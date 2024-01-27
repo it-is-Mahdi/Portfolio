@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/app/personal-information/personal-information.component.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1706305300510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706325456024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     </tbody>\n   </table>\n \n   <section>\n-    <p *ngFor=\"let sentence of aboutMe\">\n-      {{ sentence }}\n+    <p *ngFor=\"let myIntro of aboutMe\">\n+      {{ myIntro }}\n     </p>\n   </section>\n </div>\n"
+                }
+            ],
+            "date": 1706305300510,
+            "name": "Commit-0",
+            "content": "<div class=\"container\">\n  <h1 class=\"title\">\n      <span>Personal Information</span>\n  </h1>\n\n  <table>\n      <tbody>\n          <tr *ngFor=\"let row of myData\">\n              <td *ngFor=\"let col of row\">{{col}}</td>\n          </tr>\n      </tbody>\n  </table>\n\n  <section>\n      <p *ngFor=\"let sentence of aboutMe\">\n          {{sentence}}\n      </p>\n  </section>\n</div>\n"
+        }
+    ]
+}

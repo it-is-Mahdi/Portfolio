@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/app/contact/contact.component.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1706304675182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706326929646,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,8 @@\n     <li><i class=\"bx bxl-instagram\"></i></li>\n   </ul>\n \n   <ul class=\"contact-info\">\n-    <li>Mobile: 1234567890</li>\n-    <li>sundar.pichai@gmail.com</li>\n+    <li>Mobile: 5140000000</li>\n+    <li>mahdi.alizada37@gmail.com</li>\n   </ul>\n </div>\n"
+                },
+                {
+                    "date": 1706329295702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,25 @@\n <div class=\"container\">\n   <h1>Contact</h1>\n \n   <ul class=\"social-media\">\n-    <li><i class=\"bx bxl-gmail\"></i></li>\n+    <!--\n+      <li><i class=\"bx bxl-gmail\"></i></li>\n     <li><i class=\"bx bxl-facebook-circle\"></i></li>\n     <li><i class=\"bx bxl-instagram\"></i></li>\n+  -->\n+<li>\n+     class=\"class=\"bx bxl-gmail\"\">\n+      <img src=\"../../../../../assets/images/main_banner/grid.png\" alt=\"\">\n+\n+  </li>\n+  <!---->\n+  <div class=\"shap_pattern2 d-none d-lg-block\">\n+      <img src=\"../../../../../assets/images/main_banner/grid.png\" alt=\"\">\n+  </div>\n+  <div class=\"social_links_wrapper\">\n+      <app-social-links direction=\"vertical\"></app-social-links>\n+  </div>-->\n   </ul>\n \n   <ul class=\"contact-info\">\n     <li>Mobile: 5140000000</li>\n"
+                }
+            ],
+            "date": 1706304675182,
+            "name": "Commit-0",
+            "content": "<div class=\"container\">\n  <h1>Contact</h1>\n\n  <ul class=\"social-media\">\n      <li><i class='bx bxl-gmail'></i></li>\n      <li><i class='bx bxl-facebook-circle'></i></li>\n      <li><i class='bx bxl-instagram'></i></li>\n  </ul>\n\n  <ul class=\"contact-info\">\n      <li>Mobile: 1234567890</li>\n      <li>sundar.pichai@gmail.com</li>\n  </ul>\n</div>\n"
+        }
+    ]
+}

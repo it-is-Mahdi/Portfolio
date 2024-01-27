@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/app/projects/projects.component.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1706305026212,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706306409455,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import { Component, OnInit } from '@angular/core';\n+import { Project } from '../models/models';\n \n @Component({\n   selector: 'app-projects',\n   templateUrl: './projects.component.html',\n"
+                },
+                {
+                    "date": 1706327722410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n })\n export class ProjectsComponent implements OnInit {\n   projects: Project[] = [\n     {\n-      title: 'Google Cloud, Gmail, Google Maps',\n+      title: 'Career Cloud',\n       technologies: 'Cloud Compounting, Angular, Angular Material',\n       description: [\n         'Worked as a team lead to develop apps that are powered by Cloud.',\n         'Built the services of Google Map that can be used by third party apps to get data.',\n"
+                },
+                {
+                    "date": 1706327740891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n export class ProjectsComponent implements OnInit {\n   projects: Project[] = [\n     {\n       title: 'Career Cloud',\n-      technologies: 'Cloud Compounting, Angular, Angular Material',\n+      technologies: 'C#, MVC, MS SQL Server, ADO.NET, Entity Framework',\n       description: [\n         'Worked as a team lead to develop apps that are powered by Cloud.',\n         'Built the services of Google Map that can be used by third party apps to get data.',\n         'Was part of team to expand the google drive.',\n"
+                }
+            ],
+            "date": 1706305026212,
+            "name": "Commit-0",
+            "content": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-projects',\n  templateUrl: './projects.component.html',\n  styleUrls: ['./projects.component.css']\n})\nexport class ProjectsComponent implements OnInit {\n\n  projects: Project[] = [\n    {\n      title: 'Google Cloud, Gmail, Google Maps',\n      technologies: 'Cloud Compounting, Angular, Angular Material',\n      description: [\n        'Worked as a team lead to develop apps that are powered by Cloud.',\n        'Built the services of Google Map that can be used by third party apps to get data.',\n        'Was part of team to expand the google drive.',\n      ],\n    },\n    {\n      title: 'ChromeOS',\n      technologies: 'C, C++',\n      description: [\n        'Worked as a team lead to build ChromeOS',\n        'Got to learn about linux kernel',\n        'Learned C, C++ to build an O.S.',\n      ],\n    },\n    {\n      title: 'Google Toolbar',\n      technologies: 'HTML, CSS, JS, C#',\n      description: [\n        'Worked on Google Toolbar, to include the google search engine in Internet Explorer',\n        'Learned multiple technologies to build the product.',\n      ],\n    },\n  ];\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n"
+        }
+    ]
+}
